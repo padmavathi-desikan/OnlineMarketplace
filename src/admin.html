@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Admin</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/web3.min.js"></script>
+    <script src="js/truffle-contract.js"></script>
+    <script src="js/app.js"></script>
+
+    <br><br>
+    <center>
+    
+    <!--br><br>
+    <label for="lbl_type_add">Address:</label>
+    <input type="text" id = "type_add" name="Address" placeholder="0x2222">
+    <button id="getType" onclick="App.getType()">Get Type</button>
+    <br><span id="statusGetType"></span><br-->
+
+    <br><br>
+    <label for="lbl_so_add">StoreOwner Address:</label>
+    <input type="text" id = "so_add" name="Address" placeholder="0x2222">
+    <button id="setStoreOwner" onclick="App.setStoreOwner()">Set Store Owner</button>
+    <br><span id="statusSetSO"></span><br>
+
+
+    <br><br>
+    <button id="btnPauseAdmin" onclick="App.pauseAdmin()">Loading...</button>
+    <br><span id="statusPauseAdmin"></span><br>
+    </center>
+
+    
+  </body>
+</html>
