@@ -161,5 +161,11 @@ It has a boolean variable `paused` and
 * If you have logged in as a Shopper, you will be able to view all Store Fronts and navigate to a specific store front and buy Products. 
 * A small note , wait till the metamask shows `browsersynched : connected` or console shows `InstanceGot` comment for all functions to work correctly. Also kindly wait for the `Confirmed transaction notification` in a seperate dialog box from metamask to ensure that updates in UI are reflected correctly.
 
+## Library Usage
+As required by the project guidelines, this submission uses SafeMath library for implementing all arithmetic operations since it prevents integer overflow or underflow while performing any arithmetic operations.
+
+## Implementing Emergency Stop 
+The `Pausable` contract in Online Marketplace follows the emergency stop pattern. All the smart contracts inherit this emergency stop functionality that can be used in case of some issue. `Stop Admin`, `Stop StoreOwner`,`Stop StoreFront` buttons are placed in the UI to implement the emergency stop functionality.
+
 
 
