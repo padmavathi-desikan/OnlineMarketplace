@@ -1,6 +1,6 @@
 ## Instructions to run the project
 
-First before running the project you should have node.js and npm install.
+First before running the project you should have node.js and npm installed.
 
 Run the following commands in case you have not installed truffle or ganache-cli.
 
