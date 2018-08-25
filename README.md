@@ -1,6 +1,14 @@
 ## Instructions to run the project
 
-In a Unix terminal, type `ganache-cli` to open a local testnet. Add the seed phrase that is displayed in the terminal to the  metamask extension in your favorite web browser and add as many accounts as required to test the project.
+First before running the project you should have node.js and npm install.
+
+Run the following commands in case you have not installed truffle or ganache-cli.
+
+npm install -g truffle
+
+npm install -g ganache-cli
+
+In one Unix terminal, type `ganache-cli` to open a local testnet. Add the seed phrase that is displayed in the terminal to the  metamask extension in your favorite web browser and add as many accounts as required to test the project.
 
 In another Unix terminal , go inside truffle project folder where you have downloaded project from git and run the commands below in given order:
 
@@ -16,6 +24,7 @@ In another Unix terminal , go inside truffle project folder where you have downl
 
 * npm run dev
 
+Kindly use prescribed Ubuntu for running the project.
 
 ## Project Intro
 
